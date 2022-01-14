@@ -48,6 +48,7 @@
     width: 55%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -58,4 +59,9 @@
     margin: 10px;
     border-radius: 3px;
     width: fit-content;
+}
+
+.right > p > span{
+    color: #2774f8;
+    cursor: pointer;
 }
