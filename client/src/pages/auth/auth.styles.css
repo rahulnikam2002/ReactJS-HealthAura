@@ -1,0 +1,61 @@
+
+.AuthPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    width: 45%;
+    background-color: #2774f8;
+    height: 100%;
+    background-image: url('../../images/Virus.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.msg-area{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 88%;
+    text-align: center;
+}
+
+.msg-blur{
+    width: 60%;
+    backdrop-filter: blur(3px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.529);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.msg-blur > h2{
+    font-weight: 600;
+}
+
+.msg-blur > p {
+    font-size: 14px;
+    color: #333;
+}
+
+.right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backBtnArea{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+    width: fit-content;
+}

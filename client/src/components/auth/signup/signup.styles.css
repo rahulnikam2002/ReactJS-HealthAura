@@ -1,0 +1,14 @@
+.Title{
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+.Title > span{
+    color: #2774f8;
+}
+
+.signupForm{
+    width: 60%;
+}
